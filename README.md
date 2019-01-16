@@ -36,6 +36,7 @@ eos quota ls /eos/experiment/fcc/
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ~~~
 
+~~~{.sh}
 eos quota ls /eos/experiment/fcc/users/
 
 ┏━> Quota Node: /eos/experiment/fcc/users/
@@ -94,3 +95,4 @@ eos quota ls /eos/experiment/fcc/users/
  
  All groups   24.94 TB   12.47 TB    76.94 K        0 B        0 B          0   100.00 %    ignored    ignored 
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+~~~
