@@ -7,22 +7,47 @@ description of the ressources for FCC (disk and CPU)
 
 LHE FCC       2.8 10^9 events for a size of 510GB
 
-DELPHES FCC   1.5 10^9 events for a size of 64622GB (64TB)
-
-
 LHE HE-LHC    0.9 10^9 events for a size of 142GB
+
+
+DELPHES FCC   1.5 10^9 events for a size of 64622GB (64TB) (0.064MB/evt)
 
 DELPHES HE-LHC 1.2 10^9 events for a size of 26585GB (26TB)
 
 
-FCCSIM v03    0.5 10^9 events for a size of 40591GB (40TB)
+FCCSIM v03    0.5 10^9 events for a size of 40591GB (40TB) (0.08MB/evt)
 
-FCCSIM v03 ECAL 24 10^6 events for a size of 90707GB (90TB)
+FCCSIM v03 ECAL 2.4 10^7 events for a size of 90707GB (90TB) (3.8MB/evt)
 
 USERS 24TB, mostly by few
 
 
 CPU
+------------
+For LHE, very quick in general (because LO) 10-1000 events/min
+For FCCPhys, standard, but can take long and become very inefficient with matching 30-70 events/min (take 50 as averaged value)
+For simulation, vary really with the type of detector and particle and energy between 20 and 0.15 events/min (take 2 as averaged value)
+
+
+
+Predictions
+------------
+Assuming the numbers above have been produced in a 6 months period (180days) (this is possible as previous productions are removed regularly)
+it means we can produce
+
+ 1) 10^7 physics events per day (2 10^9events/180days) which represents 0.64TB/day and 2 10^5 mins of CPU/day
+ 
+ 2) 2.5 10^6 full sim events per day which represents 0.2TB/day and 10^6 mins of CPU/day
+ 
+ 3) 10^5 large full sim events per day which represents 0.38TB/day and 5 10^4 mins of CPU/day
+and assuming 50TB can be removed every 6 months
+
+sum 1)+2)+3) 
+1.22TB/day
+1.25 10^6 mins of CPU/day
+
+
+EOS STATUS
 ------------
 
 ~~~{.sh}
