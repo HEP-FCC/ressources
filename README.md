@@ -44,55 +44,32 @@ eos quota ls /eos/experiment/fcc/users/
 │user      │used bytes│logi bytes│used files│aval bytes│aval logib│aval files│ filled[%]│vol-status│ino-status│
 └──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┘
  50836         1.38 GB  688.65 MB          7  200.00 GB  100.00 GB    10.00 K     0.69 %         ok         ok 
- 
  90030         5.93 TB    2.96 TB     1.43 K        0 B        0 B          0   100.00 %    ignored    ignored 
- 
  93549        95.85 GB   47.92 GB         14        0 B        0 B          0   100.00 %    ignored    ignored 
- 
  95964       166.86 GB   83.43 GB         23  200.00 GB  100.00 GB    10.00 K    83.43 %         ok         ok 
- 
  97088       436.00 KB  218.00 KB          9  200.00 GB  100.00 GB    10.00 K     0.00 %         ok         ok 
- 
  akolano       1.54 TB  770.36 GB     3.12 K    2.00 TB    1.00 TB    10.00 K    77.04 %         ok         ok 
- 
  azaborow     12.70 TB    6.35 TB    21.51 K   15.00 TB    7.50 TB    50.00 K    84.70 %         ok         ok 
- 
  cbern             0 B        0 B          1  200.00 GB  100.00 GB    10.00 K     0.00 %         ok         ok 
- 
  cneubuse      1.39 TB  694.58 GB    22.49 K   10.00 TB    5.00 TB          0    13.89 %         ok    ignored 
- 
  daemon            0 B        0 B          0        0 B        0 B          0   100.00 %    ignored    ignored 
- 
  eperez      734.30 GB  367.15 GB     1.51 K  200.00 GB  100.00 GB    10.00 K   100.00 %   exceeded         ok 
- 
  helsens     747.44 GB  373.72 GB     6.07 K   10.00 TB    5.00 TB    10.00 K     7.47 %         ok         ok 
- 
  jhrdinka      6.19 GB    3.10 GB        832   10.00 TB    5.00 TB          0     0.06 %         ok    ignored 
- 
  kojin             0 B        0 B          0  200.00 GB  100.00 GB    10.00 K     0.00 %         ok         ok 
- 
  nobody            0 B        0 B          0        0 B        0 B          0   100.00 %    ignored    ignored 
- 
  novaj       776.81 GB  388.41 GB    19.65 K   10.00 TB    5.00 TB     5.00 M     7.77 %         ok         ok 
- 
  selvaggi      1.88 MB  940.19 KB          1  200.00 GB  100.00 GB    10.00 K     0.00 %         ok         ok 
- 
  solans            0 B        0 B          0  200.00 GB  100.00 GB    10.00 K     0.00 %         ok         ok 
- 
  sznajder          0 B        0 B          0  200.00 GB  100.00 GB    10.00 K     0.00 %         ok         ok 
- 
  toprice           0 B        0 B          0  200.00 GB  100.00 GB    10.00 K     0.00 %         ok         ok 
- 
  voutsina    849.45 GB  424.72 GB        274    1.00 TB  500.00 GB    10.00 K    84.94 %         ok         ok 
  
-
-
 
 ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐
 │summary   │used bytes│logi bytes│used files│aval bytes│aval logib│aval files│ filled[%]│vol-status│ino-status│
 └──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┘
  All users    24.94 TB   12.47 TB    76.94 K   60.00 TB   30.00 TB     5.18 M    41.57 %         ok         ok 
- 
  All groups   24.94 TB   12.47 TB    76.94 K        0 B        0 B          0   100.00 %    ignored    ignored 
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ~~~
