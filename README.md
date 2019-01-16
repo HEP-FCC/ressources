@@ -44,7 +44,7 @@ and assuming 50TB can be removed every 6 months
 
 sum 1)+2)+3) 
 1.22TB/day
-1.25 10^6 mins of CPU/day
+1.25 10^6 mins of CPU/day (2600 jobs on 8nh like queues)
 
 
 EOS STATUS
